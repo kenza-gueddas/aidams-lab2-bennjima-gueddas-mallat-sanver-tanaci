@@ -11,3 +11,6 @@ wheels/
 
 # Data
 gem-download/
+
+# macOS
+.DS_Store
