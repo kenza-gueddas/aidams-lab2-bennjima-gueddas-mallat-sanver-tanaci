@@ -14,3 +14,9 @@ gem-download/
 
 # macOS
 .DS_Store
+
+# MLflow and saved models
+mlflow.db
+mlruns/
+mlartifacts/
+models/
