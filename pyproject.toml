@@ -1,0 +1,29 @@
+[project]
+name = "lab2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mallat Jawad", email = "jawad.mallat@student-cs.fr" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "mlflow>=3.16.1",
+    "optuna>=5.0.0",
+    "pandas>=3.0.6",
+    "pandera>=0.33.1",
+    "polars>=1.44.2",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "skrub>=0.10.1",
+]
+
+[project.scripts]
+lab2 = "lab2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
